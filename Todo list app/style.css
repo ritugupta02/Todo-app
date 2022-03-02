@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100vh;
+}
+body{
+    background:linear-gradient(135deg,black, purple,pink,purple,black);
+    display: grid;
+    place-items: center;
+
+}
+
+h2{  color: aliceblue;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4rem;
+    padding-top: 0.5%;
+}
+
+h3{
+    color: aliceblue;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2rem;
+    padding-top: 1px;
+
+}
+.box1{
+    padding-top: 5px;
+}
+.box{
+    position: sticky;
+    width:600px;
+    padding:15px;
+    justify-content: center;
+    box-sizing: border-box;
+    background: radial-gradient(rgb(82, 171, 230),rgb(2, 13, 75));
+    box-shadow: 0 10px 32px 0 rgba(246, 246, 247, 0.37);
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(255, 255, 255, 0.322); 
+    
+}
+.init{
+    width: 485px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Cabin Sketch', cursive;
+    color:  white;
+  
+}
+.btn{
+    
+    width: 50px;
+    height: 34px;
+    background: linear-gradient(black,rgb(195, 0, 255));
+    font-family: 'Cabin Sketch', cursive;
+    color:  white;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.lists{
+    
+    display:flex;
+    height: 380px;
+    width:600px;
+    justify-content: center;
+    overflow: scroll; 
+    background-color: aliceblue;
+    
+}
+.done{
+    background-color: chartreuse;
+}
